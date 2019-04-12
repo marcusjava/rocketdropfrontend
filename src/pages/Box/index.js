@@ -52,7 +52,7 @@ class Box extends Component {
 					{({ getRootProps, getInputProps }) => (
 						<div className="upload" {...getRootProps()}>
 							<input {...getInputProps()} />
-							<p>Arraste arquivos ou clique aqui</p>
+							<p>Arraste arquivos ou clique aqui para acessa-los</p>
 						</div>
 					)}
 				</Dropzone>
